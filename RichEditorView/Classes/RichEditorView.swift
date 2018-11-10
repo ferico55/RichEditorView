@@ -134,7 +134,7 @@ import UIKit
         setup()
     }
     
-    private func setup() {
+    public func setup() {
         backgroundColor = .red
         
         webView.frame = bounds
